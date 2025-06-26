@@ -21,6 +21,7 @@ train_params = {
     'exist_ok': True,
     'save_period': 2,
     'workers': 8,
+    'auto_augment': 'autoaugment',
 }
 
 model.train(data=data_path, **train_params)
