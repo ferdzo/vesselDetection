@@ -1,0 +1,5 @@
+.env
+.venv/
+ships-aerial-images/
+runs/
+*.pt
