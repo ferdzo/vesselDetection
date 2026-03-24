@@ -1,5 +1,8 @@
 .env
 .venv/
+__pycache__/
 ships-aerial-images/
 runs*/
 *.pt
+results.tsv
+run.log

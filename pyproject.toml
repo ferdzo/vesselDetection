@@ -1,0 +1,12 @@
+[project]
+name = "vesseldetection"
+version = "0.1.0"
+description = "Autoresearch-style YOLO vessel detection experiments"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "ultralytics>=8.3.0",
+]
+
+[tool.uv]
+package = false
